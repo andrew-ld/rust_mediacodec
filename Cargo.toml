@@ -17,7 +17,6 @@ categories = ["api-bindings", "encoding", "multimedia", "multimedia::audio", "mu
 
 [lib]
 name = "mediacodec"
-crate-type = ["cdylib"]
 
 [[example]]
 name = "demuxing"
