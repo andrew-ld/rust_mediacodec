@@ -244,7 +244,7 @@ impl MediaFormat {
     /// Get a 64-bit floating-point value
     #[cfg(feature = "api28")]
     pub fn get_f64(&self, name: &str) -> Option<f64> {
-        let value = None;
+        let mut value = None;
 
         unsafe {
             let mut v = 0f64;
