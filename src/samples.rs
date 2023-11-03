@@ -80,5 +80,5 @@ pub enum VideoFrame<'a> {
 /// A raw video frame with pixel format and a byte buffer to read the data
 #[derive(Debug)]
 pub struct RawVideoFrame<'a> {
-    buffer: &'a [u8],
+    pub buffer: &'a [u8],
 }
